@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\学习笔记\C++\paho.mqtt.cpp\src\async_client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\学习笔记\C++\paho.mqtt.cpp\src\client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\学习笔记\C++\paho.mqtt.cpp\src\disconnect_options.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\学习笔记\C++\paho.mqtt.cpp\src\iclient_persistence.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\学习笔记\C++\paho.mqtt.cpp\src\message.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\学习笔记\C++\paho.mqtt.cpp\src\properties.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\学习笔记\C++\paho.mqtt.cpp\src\response_options.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\学习笔记\C++\paho.mqtt.cpp\src\ssl_options.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\学习笔记\C++\paho.mqtt.cpp\src\string_collection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\学习笔记\C++\paho.mqtt.cpp\src\subscribe_options.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\学习笔记\C++\paho.mqtt.cpp\src\token.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\学习笔记\C++\paho.mqtt.cpp\src\topic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\学习笔记\C++\paho.mqtt.cpp\src\connect_options.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\学习笔记\C++\paho.mqtt.cpp\src\will_options.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\学习笔记\C++\paho.mqtt.cpp\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2E3AB226-3185-397D-96B9-C5EB62A38373}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

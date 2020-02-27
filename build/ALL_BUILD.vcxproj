@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A93BDD34-56C4-3368-A551-C60D17420937}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\学习笔记\C++\paho.mqtt.cpp\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/学习笔记/C++/paho.mqtt.cpp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/学习笔记/C++/paho.mqtt.cpp -BF:/学习笔记/C++/paho.mqtt.cpp/build --check-stamp-file F:/学习笔记/C++/paho.mqtt.cpp/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.16\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.16\Templates\CPackConfig.cmake.in;F:\学习笔记\C++\paho.mqtt.cpp\build\CMakeFiles\3.16.2\CMakeCXXCompiler.cmake;F:\学习笔记\C++\paho.mqtt.cpp\build\CMakeFiles\3.16.2\CMakeRCCompiler.cmake;F:\学习笔记\C++\paho.mqtt.cpp\build\CMakeFiles\3.16.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\学习笔记\C++\paho.mqtt.cpp\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/学习笔记/C++/paho.mqtt.cpp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/学习笔记/C++/paho.mqtt.cpp -BF:/学习笔记/C++/paho.mqtt.cpp/build --check-stamp-file F:/学习笔记/C++/paho.mqtt.cpp/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.16\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.16\Templates\CPackConfig.cmake.in;F:\学习笔记\C++\paho.mqtt.cpp\build\CMakeFiles\3.16.2\CMakeCXXCompiler.cmake;F:\学习笔记\C++\paho.mqtt.cpp\build\CMakeFiles\3.16.2\CMakeRCCompiler.cmake;F:\学习笔记\C++\paho.mqtt.cpp\build\CMakeFiles\3.16.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\学习笔记\C++\paho.mqtt.cpp\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/学习笔记/C++/paho.mqtt.cpp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/学习笔记/C++/paho.mqtt.cpp -BF:/学习笔记/C++/paho.mqtt.cpp/build --check-stamp-file F:/学习笔记/C++/paho.mqtt.cpp/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.16\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.16\Templates\CPackConfig.cmake.in;F:\学习笔记\C++\paho.mqtt.cpp\build\CMakeFiles\3.16.2\CMakeCXXCompiler.cmake;F:\学习笔记\C++\paho.mqtt.cpp\build\CMakeFiles\3.16.2\CMakeRCCompiler.cmake;F:\学习笔记\C++\paho.mqtt.cpp\build\CMakeFiles\3.16.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\学习笔记\C++\paho.mqtt.cpp\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/学习笔记/C++/paho.mqtt.cpp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/学习笔记/C++/paho.mqtt.cpp -BF:/学习笔记/C++/paho.mqtt.cpp/build --check-stamp-file F:/学习笔记/C++/paho.mqtt.cpp/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.16\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.16\Templates\CPackConfig.cmake.in;F:\学习笔记\C++\paho.mqtt.cpp\build\CMakeFiles\3.16.2\CMakeCXXCompiler.cmake;F:\学习笔记\C++\paho.mqtt.cpp\build\CMakeFiles\3.16.2\CMakeRCCompiler.cmake;F:\学习笔记\C++\paho.mqtt.cpp\build\CMakeFiles\3.16.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\学习笔记\C++\paho.mqtt.cpp\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\学习笔记\C++\paho.mqtt.cpp\build\ZERO_CHECK.vcxproj">
+      <Project>{2A3A4F43-7A10-3B05-9677-E1B382D272B9}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\学习笔记\C++\paho.mqtt.cpp\build\src\samples\async_consume.vcxproj">
+      <Project>{6D116FC0-03F4-3B60-8462-C9BD371808DF}</Project>
+      <Name>async_consume</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\学习笔记\C++\paho.mqtt.cpp\build\src\samples\async_publish.vcxproj">
+      <Project>{071BAE25-9613-314C-AD2A-E24D0F9E1FD4}</Project>
+      <Name>async_publish</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\学习笔记\C++\paho.mqtt.cpp\build\src\samples\async_publish_time.vcxproj">
+      <Project>{83CA2B07-498E-3736-A399-608094342136}</Project>
+      <Name>async_publish_time</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\学习笔记\C++\paho.mqtt.cpp\build\src\samples\async_subscribe.vcxproj">
+      <Project>{D0A08A9C-F46E-33FC-A17D-3668AC400624}</Project>
+      <Name>async_subscribe</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\学习笔记\C++\paho.mqtt.cpp\build\src\samples\data_publish.vcxproj">
+      <Project>{E5FE135B-240F-364C-99E4-E42080B1CF43}</Project>
+      <Name>data_publish</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\学习笔记\C++\paho.mqtt.cpp\build\src\samples\mqttpp_chat.vcxproj">
+      <Project>{D4B45F52-E80A-3635-B8B0-811B42AB70A3}</Project>
+      <Name>mqttpp_chat</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\学习笔记\C++\paho.mqtt.cpp\build\src\paho-cpp-objs.vcxproj">
+      <Project>{E10C310E-7B82-30EA-945E-F35397038308}</Project>
+      <Name>paho-cpp-objs</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\学习笔记\C++\paho.mqtt.cpp\build\src\paho-mqttpp3.vcxproj">
+      <Project>{15C2115E-9B13-3BBA-9B9C-860CB3239C3F}</Project>
+      <Name>paho-mqttpp3</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\学习笔记\C++\paho.mqtt.cpp\build\src\paho-mqttpp3-static.vcxproj">
+      <Project>{022176F0-0F0D-37DE-93CE-98B3058CBE55}</Project>
+      <Name>paho-mqttpp3-static</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\学习笔记\C++\paho.mqtt.cpp\build\src\samples\pub_speed_test.vcxproj">
+      <Project>{2447A69C-0C5E-3C81-8B18-314D2C389724}</Project>
+      <Name>pub_speed_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\学习笔记\C++\paho.mqtt.cpp\build\src\samples\rpc_math_cli.vcxproj">
+      <Project>{6BC512D5-A7E1-3EB9-8B4B-B14D4148C683}</Project>
+      <Name>rpc_math_cli</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\学习笔记\C++\paho.mqtt.cpp\build\src\samples\rpc_math_srvr.vcxproj">
+      <Project>{94603AD4-C95D-3D12-8864-87C79BA8616A}</Project>
+      <Name>rpc_math_srvr</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\学习笔记\C++\paho.mqtt.cpp\build\src\samples\ssl_publish.vcxproj">
+      <Project>{E86188C9-94CB-3D38-B638-D4B491650AD5}</Project>
+      <Name>ssl_publish</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\学习笔记\C++\paho.mqtt.cpp\build\src\samples\sync_consume.vcxproj">
+      <Project>{82EB02F9-1998-3B0D-B42B-1F4250B0108A}</Project>
+      <Name>sync_consume</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\学习笔记\C++\paho.mqtt.cpp\build\src\samples\sync_publish.vcxproj">
+      <Project>{F8CFB1A8-6CD3-3760-ADCA-7267FFF93E40}</Project>
+      <Name>sync_publish</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\学习笔记\C++\paho.mqtt.cpp\build\src\samples\topic_publish.vcxproj">
+      <Project>{09822239-75CE-3B26-8030-56A791238EB6}</Project>
+      <Name>topic_publish</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

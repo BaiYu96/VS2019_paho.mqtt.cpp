@@ -1,0 +1,4 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(438,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  Building Custom Rule F:/学习笔记/C++/paho.mqtt.cpp/src/samples/CMakeLists.txt
+  rpc_math_srvr.cpp
+  rpc_math_srvr.vcxproj -> F:\学习笔记\C++\paho.mqtt.cpp\build\src\samples\..\..\..\install\bin\rpc_math_srvr.exe

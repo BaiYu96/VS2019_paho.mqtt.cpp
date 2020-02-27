@@ -1,0 +1,10 @@
+^F:\学习笔记\C++\PAHO.MQTT.CPP\BUILD\CMAKEFILES\C6F7F7FF5A01C72FD98E0BE59B71EE13\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/学习笔记/C++/paho.mqtt.cpp -BF:/学习笔记/C++/paho.mqtt.cpp/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file F:/学习笔记/C++/paho.mqtt.cpp/build/paho-mqtt-cpp.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

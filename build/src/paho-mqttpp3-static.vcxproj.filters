@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\学习笔记\C++\paho.mqtt.cpp\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="F:\学习笔记\C++\paho.mqtt.cpp\build\src\paho-cpp-objs.dir\$(Configuration)\async_client.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\学习笔记\C++\paho.mqtt.cpp\build\src\paho-cpp-objs.dir\$(Configuration)\client.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\学习笔记\C++\paho.mqtt.cpp\build\src\paho-cpp-objs.dir\$(Configuration)\disconnect_options.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\学习笔记\C++\paho.mqtt.cpp\build\src\paho-cpp-objs.dir\$(Configuration)\iclient_persistence.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\学习笔记\C++\paho.mqtt.cpp\build\src\paho-cpp-objs.dir\$(Configuration)\message.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\学习笔记\C++\paho.mqtt.cpp\build\src\paho-cpp-objs.dir\$(Configuration)\properties.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\学习笔记\C++\paho.mqtt.cpp\build\src\paho-cpp-objs.dir\$(Configuration)\response_options.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\学习笔记\C++\paho.mqtt.cpp\build\src\paho-cpp-objs.dir\$(Configuration)\ssl_options.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\学习笔记\C++\paho.mqtt.cpp\build\src\paho-cpp-objs.dir\$(Configuration)\string_collection.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\学习笔记\C++\paho.mqtt.cpp\build\src\paho-cpp-objs.dir\$(Configuration)\subscribe_options.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\学习笔记\C++\paho.mqtt.cpp\build\src\paho-cpp-objs.dir\$(Configuration)\token.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\学习笔记\C++\paho.mqtt.cpp\build\src\paho-cpp-objs.dir\$(Configuration)\topic.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\学习笔记\C++\paho.mqtt.cpp\build\src\paho-cpp-objs.dir\$(Configuration)\connect_options.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\学习笔记\C++\paho.mqtt.cpp\build\src\paho-cpp-objs.dir\$(Configuration)\will_options.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{265B2AED-CC24-3272-B333-8B99C141D888}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

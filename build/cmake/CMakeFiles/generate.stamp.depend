@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.16/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+C:/Program Files/CMake/share/cmake-3.16/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-3.16/Modules/WriteBasicConfigVersionFile.cmake
+F:/学习笔记/C++/paho.mqtt.cpp/cmake/CMakeLists.txt
+F:/学习笔记/C++/paho.mqtt.cpp/cmake/PahoMqttCppConfig.cmake.in

@@ -1,0 +1,6 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(438,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  Building Custom Rule F:/学习笔记/C++/paho.mqtt.cpp/src/CMakeLists.txt
+  Auto build dll exports
+    正在创建库 F:/学习笔记/C++/paho.mqtt.cpp/build/src/Debug/paho-mqttpp3.lib 和对象 F:/学习笔记/C++/paho.mqtt.cpp/build/src/Debug/paho-mqttpp3.exp
+LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+  paho-mqttpp3.vcxproj -> F:\学习笔记\C++\paho.mqtt.cpp\build\src\..\..\install\bin\paho-mqttpp3.dll

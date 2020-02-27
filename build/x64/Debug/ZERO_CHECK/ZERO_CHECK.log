@@ -1,0 +1,15 @@
+﻿  Checking Build System
+  CMake is re-running because generate.stamp.list is missing.
+  CMake Error at C:/Program Files/CMake/share/cmake-3.16/Modules/FindPackageHandleStandardArgs.cmake:146 (message):
+    Could NOT find PahoMqttC (missing: PAHO_MQTT_C_LIBRARIES
+    PAHO_MQTT_C_INCLUDE_DIRS)
+  Call Stack (most recent call first):
+    C:/Program Files/CMake/share/cmake-3.16/Modules/FindPackageHandleStandardArgs.cmake:393 (_FPHSA_FAILURE_MESSAGE)
+    cmake/FindPahoMqttC.cmake:30 (FIND_PACKAGE_HANDLE_STANDARD_ARGS)
+    src/CMakeLists.txt:26 (find_package)
+  
+  
+  -- Configuring incomplete, errors occurred!
+  See also "F:/瀛︿範绗旇/C++/paho.mqtt.cpp/build/CMakeFiles/CMakeOutput.log".
+  CMake Configure step failed.  Build files cannot be regenerated correctly.  Attempting to stop IDE build.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(220,5): error MSB6006: “cmd.exe”已退出，代码为 1。

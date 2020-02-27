@@ -1,0 +1,8 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.16/Modules/CheckCXXSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.16/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/CMake/share/cmake-3.16/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-3.16/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.16/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.16/Modules/FindThreads.cmake
+F:/学习笔记/C++/paho.mqtt.cpp/src/samples/CMakeLists.txt
